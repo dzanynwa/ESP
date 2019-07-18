@@ -1,0 +1,54 @@
+<!--
+    Drawers - Usage with Top App Bar - Dismissible Drawer Full Height Drawer
+    https://material.io/develop/web/components/drawers/
+-->
+
+<body>
+    <aside class="mdc-drawer">
+        <div class="mdc-drawer__header" style="background-color:  rgb(125,0,240)">
+            <h1 class="mdc-drawer__title" style="color: white; font-weight:bolder;">ESP</h1>
+        </div>
+      <div class="mdc-drawer__content">
+          <div class="mdc-drawer__header">
+              <h1 class="mdc-drawer__title">CRM</h1>
+          </div>
+        <div class="mdc-list">
+          <a class="mdc-list-item mdc-list-item--activated" href="#" aria-current="page">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">assessment</i>
+            <span class="mdc-list-item__text">Dashboard</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">room</i>
+            <span class="mdc-list-item__text">Channels</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">store</i>
+            <span class="mdc-list-item__text">Merchants</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">contacts</i>
+              <span class="mdc-list-item__text">Customers</span>
+            </a>
+        </div>
+      </div>
+    </aside>
+  
+    <div class="mdc-drawer-app-content">
+      <header class="mdc-top-app-bar app-bar" id="app-bar" style="background-color: rgb(125,0,240)">
+        <div class="mdc-top-app-bar__row">
+          <section class="mdc-top-app-bar__section mdc-top-app-bar__section">
+            <span class="mdc-top-app-bar__title">Dismissible Drawer</span>
+          </section>
+        </div>
+      </header>
+  
+      <main class="main-content" id="main-content">
+        <div class="mdc-top-app-bar--fixed-adjust" style="padding: 8% 4%">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam justo in tortor vestibulum, quis luctus tellus venenatis. Quisque varius lorem eu tincidunt lacinia. Suspendisse pellentesque quis mauris ultricies suscipit. Curabitur eget sapien sed magna dictum tempor quis eu mi. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In egestas quam placerat, fermentum ex et, laoreet leo. Quisque sapien nulla, aliquam ut dolor in, efficitur venenatis ex. Nunc ultricies sagittis diam, ac tincidunt nunc bibendum ac. Pellentesque vestibulum a neque non consectetur.</p>
+        </div>
+      </main>
+    </div>
+  </body>
+
+<router-outlet></router-outlet>
+
