@@ -6,10 +6,11 @@ https://material.io/develop/web/components/drawers/
 */
 body {
     display: flex;
-    height: 100vh;
+    height: 200vh;
     margin: 0
 }
-
+$mdc-theme-primary: rgb(125,0,240);
+$mdc-theme-secondary: rgb(0,138,102);
 .mdc-drawer-app-content {
     flex: auto;
     overflow: auto;
@@ -29,3 +30,12 @@ body {
 .mdc-top-app-bar {
     z-index: 7
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.my-card-content {
+    padding: 16px;
+  }
+  .my-card {
+    height: 350px;
+    width: 350px;
+  }
